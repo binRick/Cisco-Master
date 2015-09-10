@@ -17,9 +17,14 @@
   },
   "homepage": "https://github.com/binRick/Cisco-Master",
   "dependencies": {
+    "cli-clear": "^1.0.4",
+    "kue": "^0.9.4",
     "kue-ui": "^0.1.0",
+    "pretty-bytes": "^2.0.1",
+    "pretty-ms": "^2.0.0",
     "pty.js": "^0.3.0",
     "scp2": "^0.2.2",
+    "terminal-kit": "^0.15.10",
     "unique-kue": "^0.4.0"
   }
 }
