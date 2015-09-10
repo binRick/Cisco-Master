@@ -44,6 +44,7 @@ queue.process('backupProcess', 1, function(job, ctx, done) {
     });
 });
 queue.process('remoteBackup', 1, function(job, ctx, done) {
+    console.log(job.data.options);
     _.each(backupServers, function(buServer) {
         var options = {
             host: buServer.host,
