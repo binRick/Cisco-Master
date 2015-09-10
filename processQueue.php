@@ -11,11 +11,11 @@ print('connected to redis server..');
 
 
 $kue->process('email', function($job){
-    print('email job received');
     $data = $job->data;
-    echo 'sending email to ' . $data['to'] . '';
+    print('sending email to ' . $data['to'] . '
+');
 });
 
 
 $kue->process();
-print('waiting for jobs to be submitted');
+print('waiting for jobs to be submitted\n\n');
