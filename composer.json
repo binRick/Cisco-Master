@@ -1,0 +1,13 @@
+{
+    "name": "root/cisco-master",
+    "authors": [
+        {
+            "name": "rick",
+            "email": "r@r.c"
+        }
+    ],
+    "require": {
+        "kue/kue": "dev-master",
+        "react/react": "^0.4.2"
+    }
+}
