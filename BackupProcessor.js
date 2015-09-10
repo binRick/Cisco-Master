@@ -1,5 +1,4 @@
 var kue = require('kue'),
-    Sftp = require('sftp-upload'),
     config = require('./config'),
     async = require('async'),
     c = require('chalk'),

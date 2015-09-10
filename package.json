@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/binRick/Cisco-Master/issues"
   },
-  "homepage": "https://github.com/binRick/Cisco-Master"
+  "homepage": "https://github.com/binRick/Cisco-Master",
+  "dependencies": {
+    "kue-ui": "^0.1.0",
+    "pty.js": "^0.3.0",
+    "scp2": "^0.2.2",
+    "unique-kue": "^0.4.0"
+  }
 }
